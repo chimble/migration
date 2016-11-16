@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Magic(models.Model):
     name_text = models.CharField(max_length=200)
     type_text = models.CharField(max_length=200)
